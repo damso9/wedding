@@ -1,12 +1,14 @@
 .Navbar {
   border: 2px solid red;
+  // position: sticky;
   // padding: 10px;
   background: linear-gradient(to bottom right, #7E1215, #C4224A);
-  
+
   main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // position: fixed;
     .logo {
       font-family: "Dancing Script", cursive;
       font-weight: 700;
@@ -39,4 +41,27 @@
       }
     }
   }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .Navbar {
+    main {
+      .menu-container {
+        display: inline;
+        ul {
+          li {
+            margin: 0 20px;
+            cursor:pointer;
+          }
+        }
+      }
+      .bar {
+        display:none;
+      }
+    }
+  }
+
+
+
 }

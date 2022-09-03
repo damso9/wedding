@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import Scroll from "react-scroll";
-const ScrollLink = Scroll.ScrollLink;
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [toggleNav, setToggleNav] = useState(true);
@@ -19,19 +19,10 @@ export const Navbar = () => {
           }}
         />
 
-        {/* <section className='menu-container'>
+        <section className='menu-container'>
           <ul>
-            <li>Home</li>
-            <li>Gallery</li>
-          </ul>
-        </section> */}
-      </main>
-      {toggleNav && (
-        <aside className="menu-container-mobile">
-          <ul>
-            <li>Link</li>
-            <li>
-              <ScrollLink
+          <li>
+              <Link
                 to="gallery"
                 spy={true}
                 smooth={true}
@@ -40,10 +31,76 @@ export const Navbar = () => {
                 activeClass="some-active-class"
               >
                 Gallery
-              </ScrollLink>
+              </Link>
             </li>
-            <li>Info</li>
-            <li>Toast</li>
+            <li>
+              <Link
+                to="info-container"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="some-class"
+                activeClass="some-active-class"
+              >
+                Info
+              </Link>
+            </li>
+            <li>
+           
+              <Link
+                to="toast"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="some-class"
+                activeClass="some-active-class"
+              >
+                Toast
+              </Link>
+            </li>
+          </ul>
+        </section>
+      </main>
+      {toggleNav && (
+        <aside className="menu-container-mobile">
+          <ul>
+            <li>
+              <Link
+                to="gallery"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="some-class"
+                activeClass="some-active-class"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="info-container "
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="some-class"
+                activeClass="some-active-class"
+              >
+                Info
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link
+                to="toast"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="some-class"
+                activeClass="some-active-class"
+              >
+                Toast
+              </Link>
+            </li>
           </ul>
         </aside>
       )}

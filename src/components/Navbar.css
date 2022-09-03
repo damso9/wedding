@@ -50,4 +50,17 @@
   border: 2px solid red;
   margin: 10px 0;
 }
+
+@media only screen and (min-width: 768px) {
+  .Navbar main .menu-container {
+    display: inline;
+  }
+  .Navbar main .menu-container ul li {
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  .Navbar main .bar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */

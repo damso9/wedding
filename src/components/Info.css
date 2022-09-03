@@ -41,6 +41,7 @@
 
 .info-container .event-group figure .figure-container .event-icon {
   margin: 20px;
+  font-size: 2rem;
 }
 
 .info-container .event-group figure .figure-container h3 {
@@ -83,6 +84,7 @@
   }
   .info-container .event-group figure .figure-container .event-icon {
     margin: 20px;
+    font-size: 4rem;
   }
   .info-container .event-group figure .figure-container h3 {
     margin: 20px;
