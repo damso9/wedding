@@ -6,12 +6,15 @@ import img3 from "../assets/wedding-photos/3.jpg"
 import img4 from "../assets/wedding-photos/4.jpg"
 import img5 from "../assets/wedding-photos/5.jpg"
 import img6 from "../assets/wedding-photos/6.jpg"
+import { Element } from 'react-scroll'
 
 
 export const Gallery = () => {
   return (
     <>
-      <section id="gallery">
+    <Element id='gallery' name='example-destination'>
+
+      <section>
         <h2>Gallery</h2>
         <main className="gallery-container">
           <div className="img1-container">
@@ -44,6 +47,8 @@ export const Gallery = () => {
         
         </main>
       </section>
+      </Element>
+
     </>
   );
 };

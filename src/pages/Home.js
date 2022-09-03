@@ -9,6 +9,7 @@ import { Toast } from "../components/Toast";
 
 
 
+
 export const Home = () => {
   return (
     <div>
@@ -22,7 +23,8 @@ export const Home = () => {
       <WeddingCountdown />
       <Info />
     <Toast />
-      <Gallery />
+    <Gallery />
+
 
       <Footer />
     </div>
