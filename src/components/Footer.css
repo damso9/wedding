@@ -15,7 +15,10 @@
 
 @media only screen and (min-width: 768px) {
   .footer {
-    background: orange;
+    background: var(--champagne-gold);
+  }
+  .footer h2 {
+    color: var(--burgundy-red);
   }
 }
 /*# sourceMappingURL=Footer.css.map */

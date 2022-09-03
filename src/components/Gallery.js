@@ -38,10 +38,10 @@ export const Gallery = () => {
           <img id="img5" src={img5} alt="wedding-5" />
 
           </div>
-          {/* <div className="img6-container">
+          <div className="img6-container">
           <img id="img6" src={img6} alt="wedding-6" />
 
-          </div>   */}
+          </div>  
  
 
         

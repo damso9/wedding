@@ -1,10 +1,13 @@
 #gallery {
   width: 100%;
+  background-color: var(--burgundy-red);
 }
 
 #gallery h2 {
   text-align: center;
   font-size: 5rem;
+  color: var(--champagne-gold);
+  padding: 20px 0;
 }
 
 #gallery .gallery-container {
@@ -109,6 +112,10 @@
 }
 
 @media only screen and (min-width: 950px) {
+  #gallery h2 {
+    padding: 30px 0;
+    color: var(--champagne-gold);
+  }
   #gallery .gallery-container {
     display: -ms-grid;
     display: grid;
@@ -180,8 +187,8 @@
     height: 1000px;
     border: 2px solid green;
     -ms-grid-rows: (1fr)[2];
-    -ms-grid-columns: 1fr minmax(400px, 1fr) 1fr;
-        grid-template: repeat(2, 1fr)/1fr minmax(400px, 1fr) 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template: repeat(2, 1fr)/1fr 1fr 1fr;
   }
   #gallery .gallery-container-2 .img4-container {
     background-color: blue;
