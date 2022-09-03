@@ -1,0 +1,53 @@
+.Navbar {
+  border: 2px solid red;
+  background: -webkit-gradient(linear, left top, right bottom, from(#7E1215), to(#C4224A));
+  background: linear-gradient(to bottom right, #7E1215, #C4224A);
+}
+
+.Navbar main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar main .logo {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--champagne-gold);
+}
+
+.Navbar main .menu-container {
+  display: none;
+}
+
+.Navbar main .bar {
+  font-size: 2rem;
+  border: 2px solid red;
+  color: var(--champagne-gold);
+}
+
+.Navbar .menu-container-mobile {
+  border: 2px solid red;
+}
+
+.Navbar .menu-container-mobile ul {
+  list-style-type: none;
+  border: 2px solid red;
+  padding: 0;
+  margin: 0;
+}
+
+.Navbar .menu-container-mobile ul li {
+  display: block;
+  text-align: center;
+  border: 2px solid red;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=Navbar.css.map */

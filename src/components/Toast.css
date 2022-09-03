@@ -1,0 +1,143 @@
+.toast {
+  background-image: url("../assets/background-2.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.toast .story-container {
+  border: 2px solid blue;
+  width: 80%;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.toast .story-container .reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toast .story-container .story {
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toast .story-container .story .story-photo {
+  width: 100%;
+  border: 2px solid green;
+}
+
+.toast .story-container .story .story-photo .img-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.toast .story-container .story .story-photo .img-container img {
+  max-width: 100%;
+  height: auto;
+  min-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.toast .story-container .story .story-content {
+  background: var(--burgundy-red);
+  border-radius: 7px;
+  color: var(--champagne-gold);
+  width: 100%;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.toast .story-container .story .story-content .content-container .for-those {
+  margin: 20px 0;
+  font-size: 3.4rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.toast .story-container .story .story-content .content-container h3 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.toast .story-container .story .story-content .content-container .we-met {
+  line-height: 1.4;
+  border: 2px solid red;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.toast .story-container .story .story-content .content-container .last-toast {
+  text-align: center;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) {
+  .toast .story-container .story {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .toast .story-container .story .story-photo {
+    width: 100%;
+    border: 2px solid var(--champagne-gold);
+    min-width: 400px;
+    overflow: hidden;
+    max-height: 500px;
+    margin: 0 10px;
+  }
+  .toast .story-container .story .story-photo .img-container {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    overflow: hidden;
+  }
+  .toast .story-container .story .story-photo .img-container img {
+    max-width: 100%;
+    height: auto;
+    min-height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .toast .story-container .reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .toast .story-container {
+    border: 2px solid blue;
+    width: 98%;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+}
+/*# sourceMappingURL=Toast.css.map */

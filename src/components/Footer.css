@@ -1,0 +1,21 @@
+.footer {
+  border: 2px solid red;
+  background: -webkit-gradient(linear, left top, right bottom, from(#7E1215), to(#C4224A));
+  background: linear-gradient(to bottom right, #7E1215, #C4224A);
+}
+
+.footer h2 {
+  text-align: center;
+  border: 2px solid red;
+  font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  color: var(--champagne-gold);
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    background: orange;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

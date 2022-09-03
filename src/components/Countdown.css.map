@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,gBAAgB,EAAE,kDAAkD;CAMvE;;AAPD,AAEI,oBAFgB,CAEhB,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,MAAM;EACf,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "Countdown.scss"
+    ],
+    "names": [],
+    "file": "Countdown.css"
+}

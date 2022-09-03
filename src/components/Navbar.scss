@@ -1,0 +1,42 @@
+.Navbar {
+  border: 2px solid red;
+  // padding: 10px;
+  background: linear-gradient(to bottom right, #7E1215, #C4224A);
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      font-family: "Dancing Script", cursive;
+      font-weight: 700;
+      font-size: 3rem;
+      color: var(--champagne-gold);
+    }
+
+    .menu-container {
+      display: none;
+    }
+    .bar {
+      font-size: 2rem;
+      border: 2px solid red;
+      color: var(--champagne-gold)
+    }
+  }
+  .menu-container-mobile {
+    border: 2px solid red;
+    ul {
+      list-style-type: none;
+      border: 2px solid red;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: block;
+        text-align: center;
+        border: 2px solid red;
+        margin: 10px 0;
+      }
+    }
+  }
+}
