@@ -4,10 +4,12 @@
     border: 2px solid purple;
     h2 {
         text-align: center;
-        color: yellow;
+        color: hsl(43, 61%, 61%);
+        font-size: 3rem;
+
     }
     .event-group {
-        border: 2px solid yellow;
+        // border: 2px solid yellow;
 
         color: hsl(43, 61%, 51%);
         display: flex;
@@ -17,7 +19,7 @@
         align-items: center;
         margin: 30px 0;
         figure {
-            border: 2px solid red;
+            // border: 2px solid red;
             margin: 20px 30px;
             max-width: 400px;
             ;
@@ -48,7 +50,7 @@
 
         }
         .event-group {
-            border: 2px solid yellow;
+            // border: 2px solid yellow;
             color: hsl(43, 61%, 51%);       
             
             justify-content: center;
@@ -57,7 +59,7 @@
             margin: 30px 0;
             flex-direction: row;
             figure {
-                border: 2px solid red;
+                // border: 2px solid red;
                 margin: 0 30px;
                 width: 35%;
                 .figure-container {
@@ -68,9 +70,11 @@
                     }
                     h3 {
                         margin: 20px;
+                        font-size: 1.7rem;
                     }
                     p {
                          margin: 10px 0;
+                         font-size: 1.28rem;
                     }
                 }
             }

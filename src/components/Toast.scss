@@ -1,14 +1,14 @@
 .toast {
 
-  background-image: url('../assets/background-2.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/background-2.jpg');
   background-repeat: no-repeat;
   background-position: cover;
 
 
 .story-container {
-  border: 2px solid blue;
+  // border: 2px solid blue;
 
-  width: 80%;
+  width: 90%;
   padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@
     flex-direction: column;
   }
   .story {  
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -26,7 +26,7 @@
     // height: 300px;
     .story-photo {
       width: 100%;
-      border: 2px solid green;
+      // border: 2px solid green;
       .img-container {
         width: 100%;
         margin-left: auto;
@@ -47,9 +47,10 @@
     
       color: var(--champagne-gold);
       width: 100%;
-      border: 2px solid red;
+      // border: 2px solid red;
       margin-bottom: 20px;
       .content-container {
+        padding: 10px;
         .for-those {
           margin: 20px 0;
           font-size: 3.4rem;
@@ -64,11 +65,12 @@
         h3 {
           margin: 20px 0;
           text-align: center;
+          text-decoration: underline;
         }
         .we-met {
-          line-height: 1.4;
-          border: 2px solid red;
-          margin: 5px 0;
+          line-height: 1.1;
+          // border: 2px solid red;
+          margin: 10px 0;
           text-align: center;
         }
         .last-toast {
@@ -97,6 +99,8 @@
           overflow: hidden;
           max-height: 500px;
           margin: 0 10px;
+          overflow: hidden;
+          border-radius: 10px;
   
   
           .img-container {
@@ -115,7 +119,21 @@
             }
           }
         }
+        .story-content {
+          .content-container {
+            h3 {
+              font-size: 1.6rem
+            }
+            .we-met {
+              font-size: 1.3rem;
+            }
+            .last-toast {
+              font-size: 1.5rem;
+            }
+          }
+        }
       }
+
       .reverse{
           flex-direction: row-reverse;
       }

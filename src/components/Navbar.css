@@ -1,5 +1,4 @@
 .Navbar {
-  border: 2px solid red;
   background: -webkit-gradient(linear, left top, right bottom, from(#7E1215), to(#C4224A));
   background: linear-gradient(to bottom right, #7E1215, #C4224A);
 }
@@ -29,15 +28,13 @@
 
 .Navbar main .bar {
   font-size: 2rem;
-  border: 2px solid red;
   color: var(--champagne-gold);
 }
 
-.Navbar .menu-container-mobile {
-  border: 2px solid red;
-}
-
 .Navbar .menu-container-mobile ul {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: var(--champagne-gold);
   list-style-type: none;
   border: 2px solid red;
   padding: 0;
@@ -51,16 +48,44 @@
   margin: 10px 0;
 }
 
+.Navbar .menu-container-mobile ul li:hover {
+  background-color: var(--champagne-gold);
+  color: var(--burgundy-red);
+}
+
+.some-active-class {
+  background-color: var(--champagne-gold);
+  color: var(--burgundy-red);
+  display: block;
+}
+
 @media only screen and (min-width: 768px) {
   .Navbar main .menu-container {
     display: inline;
   }
+  .Navbar main .menu-container ul {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--champagne-gold);
+  }
   .Navbar main .menu-container ul li {
     margin: 0 20px;
+    display: inline;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  .Navbar main .menu-container ul li:hover {
     cursor: pointer;
   }
   .Navbar main .bar {
     display: none;
+  }
+  .some-active-class {
+    display: inline;
+    background-color: transparent;
+    color: var(--champagne-gold);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--champagne-gold);
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

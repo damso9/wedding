@@ -37,7 +37,7 @@ export const Toast = () => {
               <p className="we-met">
               I am glad that God sent you to me, in the time that he did-God's time is truly the best. I have seen the immense love you give and feel honoured to be worthy of it. You are the very best. A virtous woman. Proof that, truly, God dey create!
               </p>
-              <p>I look forward to forever, through all the smiles, tears, pain, growth, enjoyment, everything. I promise to be by your side through it all. It's you and I together, babyy.</p>
+              <p className='we-met'>I look forward to forever, through all the smiles, tears, pain, growth, enjoyment, everything. I promise to be by your side through it all. It's you and I together, babyy.</p>
               
               <p className='last-toast'>I love you, Ifunanyami</p>
             </figure>

@@ -6,7 +6,7 @@ import Scroll from "react-scroll";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
-  const [toggleNav, setToggleNav] = useState(true);
+  const [toggleNav, setToggleNav] = useState(false);
   return (
     <div className="Navbar">
       <main>

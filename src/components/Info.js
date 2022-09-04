@@ -13,7 +13,7 @@ export const Info = () => {
                 < GiPartyPopper className='event-icon'/>
                 <h3>Our Wedding day</h3>
                 <p>24th Sept 2022</p>
-                <p>It's the same day we first met 9 years ago</p>
+                <p>Too Forever! 💒</p>
 
                 </div>
             </figure>

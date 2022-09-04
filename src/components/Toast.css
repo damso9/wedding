@@ -1,12 +1,12 @@
 .toast {
-  background-image: url("../assets/background-2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/background-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/background-2.jpg");
   background-repeat: no-repeat;
   background-position: cover;
 }
 
 .toast .story-container {
-  border: 2px solid blue;
-  width: 80%;
+  width: 90%;
   padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +21,6 @@
 }
 
 .toast .story-container .story {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +38,6 @@
 
 .toast .story-container .story .story-photo {
   width: 100%;
-  border: 2px solid green;
 }
 
 .toast .story-container .story .story-photo .img-container {
@@ -62,8 +60,11 @@
   border-radius: 7px;
   color: var(--champagne-gold);
   width: 100%;
-  border: 2px solid red;
   margin-bottom: 20px;
+}
+
+.toast .story-container .story .story-content .content-container {
+  padding: 10px;
 }
 
 .toast .story-container .story .story-content .content-container .for-those {
@@ -78,12 +79,12 @@
 .toast .story-container .story .story-content .content-container h3 {
   margin: 20px 0;
   text-align: center;
+  text-decoration: underline;
 }
 
 .toast .story-container .story .story-content .content-container .we-met {
-  line-height: 1.4;
-  border: 2px solid red;
-  margin: 5px 0;
+  line-height: 1.1;
+  margin: 10px 0;
   text-align: center;
 }
 
@@ -106,6 +107,8 @@
     overflow: hidden;
     max-height: 500px;
     margin: 0 10px;
+    overflow: hidden;
+    border-radius: 10px;
   }
   .toast .story-container .story .story-photo .img-container {
     width: 100%;
@@ -121,6 +124,15 @@
     min-height: 400px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .toast .story-container .story .story-content .content-container h3 {
+    font-size: 1.6rem;
+  }
+  .toast .story-container .story .story-content .content-container .we-met {
+    font-size: 1.3rem;
+  }
+  .toast .story-container .story .story-content .content-container .last-toast {
+    font-size: 1.5rem;
   }
   .toast .story-container .reverse {
     -webkit-box-orient: horizontal;

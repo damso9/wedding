@@ -4,7 +4,7 @@ import Countdown from "react-countdown";
 import "./Countdown.css";
 
 // Random component
-const Completionist = () => <div className="countdown-container">It's Wedding Day! </div>;
+const Completionist = () => <div className="countdown-container"><h1>It's Wedding Day! 🎉💒</h1></div>;
 
 // Renderer callback with condition
 const renderer = ({days, hours, minutes, seconds, completed }) => {
@@ -26,7 +26,7 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
 
 export const WeddingCountdown = () => {
 
-    let weddingDay = new Date(2022, 8, 22 ,11 )
+    let weddingDay = new Date(2022, 8, 24 ,11 )
     
   return (
     <>

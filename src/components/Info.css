@@ -6,11 +6,11 @@
 
 .info-container h2 {
   text-align: center;
-  color: yellow;
+  color: #d8b65f;
+  font-size: 3rem;
 }
 
 .info-container .event-group {
-  border: 2px solid yellow;
   color: #cea336;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,7 +30,6 @@
 }
 
 .info-container .event-group figure {
-  border: 2px solid red;
   margin: 20px 30px;
   max-width: 400px;
 }
@@ -59,7 +58,6 @@
     font-size: 3.2rem;
   }
   .info-container .event-group {
-    border: 2px solid yellow;
     color: #cea336;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -75,7 +73,6 @@
             flex-direction: row;
   }
   .info-container .event-group figure {
-    border: 2px solid red;
     margin: 0 30px;
     width: 35%;
   }
@@ -88,9 +85,11 @@
   }
   .info-container .event-group figure .figure-container h3 {
     margin: 20px;
+    font-size: 1.7rem;
   }
   .info-container .event-group figure .figure-container p {
     margin: 10px 0;
+    font-size: 1.28rem;
   }
 }
 /*# sourceMappingURL=Info.css.map */

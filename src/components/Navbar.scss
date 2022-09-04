@@ -1,5 +1,5 @@
 .Navbar {
-  border: 2px solid red;
+  // border: 2px solid red;
   // position: sticky;
   // padding: 10px;
   background: linear-gradient(to bottom right, #7E1215, #C4224A);
@@ -21,13 +21,16 @@
     }
     .bar {
       font-size: 2rem;
-      border: 2px solid red;
+      // border: 2px solid red;
       color: var(--champagne-gold)
     }
   }
   .menu-container-mobile {
-    border: 2px solid red;
+    // border: 2px solid red;
     ul {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: var(--champagne-gold);
       list-style-type: none;
       border: 2px solid red;
       padding: 0;
@@ -38,9 +41,18 @@
         text-align: center;
         border: 2px solid red;
         margin: 10px 0;
+        &:hover {
+          background-color: var(--champagne-gold);
+          color: var(--burgundy-red)
+        }
       }
     }
   }
+}
+.some-active-class {
+  background-color: var(--champagne-gold);
+  color: var(--burgundy-red);
+  display: block;
 }
 
 
@@ -50,9 +62,17 @@
       .menu-container {
         display: inline;
         ul {
+          font-weight: bold;
+          font-size: 1.3rem;
+          color: var(--champagne-gold);
           li {
             margin: 0 20px;
+            display: inline;
+            padding-bottom: 10px; 
             cursor:pointer;
+            &:hover {
+              cursor: pointer;
+            }
           }
         }
       }
@@ -60,6 +80,14 @@
         display:none;
       }
     }
+  }
+
+  .some-active-class {
+    display: inline;
+    background-color: transparent;
+    color: var(--champagne-gold);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--champagne-gold);
   }
 
 
