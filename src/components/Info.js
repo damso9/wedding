@@ -38,6 +38,8 @@ export const Info = () => {
                 Novatel Hotel, Plateau Hall (6th Floor), Chevy View Estate, By
                 Chevron Roundabout, Off Lekki-Epe Expressway, Lagos.
               </p>
+              <a target="_blank" href="https://www.google.com/maps/dir//Pelican+International+Hotel,+Chevy+View+Estate,+Chevron+Drive,+Lekki,+100001,+Lagos/@6.4415609,3.5260107,18.56z/data=!4m8!4m7!1m0!1m5!1m1!1s0x103bf6f6831673f7:0x93f961f4e12717e7!2m2!1d3.526819!2d6.4416286">Click here to go to Reception</a>
+
             </div>
           </figure>
         </section>
