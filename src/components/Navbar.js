@@ -19,18 +19,18 @@ export const Navbar = () => {
           }}
         />
 
-        <section className='menu-container'>
+        <section className="menu-container">
           <ul>
-          <li>
+            <li>
               <Link
-                to="gallery"
+                to="toast"
                 spy={true}
                 smooth={true}
                 duration={500}
                 className="some-class"
                 activeClass="some-active-class"
               >
-                Gallery
+                Toast
               </Link>
             </li>
             <li>
@@ -46,16 +46,15 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-           
               <Link
-                to="toast"
+                to="gallery"
                 spy={true}
                 smooth={true}
                 duration={500}
                 className="some-class"
                 activeClass="some-active-class"
               >
-                Toast
+                Gallery
               </Link>
             </li>
           </ul>
