@@ -34,26 +34,31 @@
       font-size: 1.3rem;
       color: var(--paprika);
       list-style-type: none;
-      border: 2px solid red;
+      // border: 2px solid red;
       padding: 0;
       margin: 0;
 
       li {
         display: block;
         text-align: center;
-        border: 2px solid red;
-        margin: 10px 0;
+        // border: 2px solid red;
+        margin: 10px 0; 
         &:hover {
           background-color: var(--champagne-gold);
           color: var(--burgundy-red);
+          cursor: pointer;
+        }
+        a {
+          // border: 2px solid green;
+          display: block;
         }
       }
     }
   }
 }
 .some-active-class {
-  background-color: var(--vanilla-ice);
-  color: var(--paprika);
+  background-color: var(--paprika);
+  color: var(--vanilla-ice);
   display: block;
 }
 
@@ -85,6 +90,10 @@
       .bar {
         display: none;
       }
+
+    }
+    .menu-container-mobile{ 
+      display: none;
     }
   }
 

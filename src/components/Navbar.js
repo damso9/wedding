@@ -63,21 +63,21 @@ export const Navbar = () => {
       {toggleNav && (
         <aside className="menu-container-mobile">
           <ul>
-            <li>
+          <li>
               <Link
-                to="gallery"
+                to="toast"
                 spy={true}
                 smooth={true}
                 duration={500}
                 className="some-class"
                 activeClass="some-active-class"
               >
-                Gallery
+                Toast
               </Link>
             </li>
             <li>
               <Link
-                to="info-container "
+                to="info-container"
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -88,16 +88,15 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              {" "}
               <Link
-                to="toast"
+                to="gallery"
                 spy={true}
                 smooth={true}
                 duration={500}
                 className="some-class"
                 activeClass="some-active-class"
               >
-                Toast
+                Gallery
               </Link>
             </li>
           </ul>
