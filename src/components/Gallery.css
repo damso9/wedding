@@ -1,12 +1,12 @@
 #gallery {
   width: 100%;
-  background-color: var(--burgundy-red);
+  background-color: var(--vanilla-ice);
 }
 
 #gallery h2 {
   text-align: center;
   font-size: 5rem;
-  color: var(--champagne-gold);
+  color: var(--paprika);
   padding: 20px 0;
 }
 
@@ -94,7 +94,7 @@
 @media only screen and (min-width: 950px) {
   #gallery h2 {
     padding: 30px 0;
-    color: var(--champagne-gold);
+    color: var(--paprika);
   }
   #gallery .gallery-container {
     display: -ms-grid;

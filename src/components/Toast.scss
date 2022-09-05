@@ -1,6 +1,7 @@
 .toast {
 
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/background-2.jpg');
+  // background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/background-2.jpg');
+  background-color: var(--vanilla-ice);
   background-repeat: no-repeat;
   background-position: cover;
 
@@ -42,10 +43,11 @@
       }
     }
     .story-content {
-    background: var(--burgundy-red);
+    background: var(--vanilla-ice);
+    border: 2px solid var(--paprika);
     border-radius: 7px;
     
-      color: var(--champagne-gold);
+      color: var(--paprika);
       width: 100%;
       // border: 2px solid red;
       margin-bottom: 20px;
@@ -56,9 +58,9 @@
           font-size: 3.4rem;
           font-family: "Dancing Script", cursive;
           font-weight: 700;
-          text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-          0px 8px 13px rgba(0,0,0,0.1),
-          0px 18px 23px rgba(0,0,0,0.1);
+          // text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+          // 0px 8px 13px rgba(0,0,0,0.1),
+          // 0px 18px 23px rgba(0,0,0,0.1);
           // border: 2px solid red;
           text-align: center;
         }

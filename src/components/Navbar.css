@@ -1,6 +1,5 @@
 .Navbar {
-  background: -webkit-gradient(linear, left top, right bottom, from(#7e1215), to(#c4224a));
-  background: linear-gradient(to bottom right, #7e1215, #c4224a);
+  background-color: var(--vanilla-ice);
 }
 
 .Navbar main {
@@ -19,7 +18,7 @@
   font-family: "Dancing Script", cursive;
   font-weight: 700;
   font-size: 2rem;
-  color: var(--champagne-gold);
+  color: var(--paprika);
   padding: 10px;
 }
 
@@ -29,14 +28,14 @@
 
 .Navbar main .bar {
   font-size: 2rem;
-  color: var(--champagne-gold);
+  color: var(--vanilla-ice);
   margin-right: 20px;
 }
 
 .Navbar .menu-container-mobile ul {
   font-weight: bold;
   font-size: 1.3rem;
-  color: var(--champagne-gold);
+  color: var(--paprika);
   list-style-type: none;
   border: 2px solid red;
   padding: 0;
@@ -71,7 +70,7 @@
   .Navbar main .menu-container ul {
     font-weight: bold;
     font-size: 1.3rem;
-    color: var(--champagne-gold);
+    color: var(--paprika);
   }
   .Navbar main .menu-container ul li {
     margin: 0 20px;

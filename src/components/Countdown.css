@@ -1,12 +1,12 @@
 .countdown-container {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#A27900), to(#CEA335));
-  background-image: linear-gradient(to bottom right, #A27900, #CEA335);
+  background-color: var(--paprika);
 }
 
 .countdown-container h1 {
   text-align: center;
   padding: 50px 0;
   font-size: 2rem;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {

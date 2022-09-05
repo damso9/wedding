@@ -14,9 +14,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --burgundy-red: #7E1215;
-  --burgundy-red-light: #C4224A;
-  --champagne-gold: #CEA335;
+  /* --vanilla-ice: #ECD7D0; */
+  --vanilla-ice: white;
+
+  --paprika: #890025;
+  --tumbleweed: #D79C80;
+  --paradiso: #528789;
 }
 
 code {

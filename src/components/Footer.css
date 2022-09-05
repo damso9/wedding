@@ -13,10 +13,10 @@
 
 @media only screen and (min-width: 768px) {
   .footer {
-    background: var(--champagne-gold);
+    background: var(--vanilla-ice);
   }
   .footer h2 {
-    color: var(--burgundy-red);
+    color: var(--tumbleweed);
   }
 }
 /*# sourceMappingURL=Footer.css.map */

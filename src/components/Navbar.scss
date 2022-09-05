@@ -2,8 +2,8 @@
   // border: 2px solid red;
   // position: sticky;
   // padding: 10px;
-  background: linear-gradient(to bottom right, #7e1215, #c4224a);
-
+  // background: linear-gradient(to bottom right, #f0ece2, white);
+  background-color: var(--vanilla-ice);
   main {
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@
       font-family: "Dancing Script", cursive;
       font-weight: 700;
       font-size: 2rem;
-      color: var(--champagne-gold);
+      color: var(--paprika);
       padding: 10px;
     }
 
@@ -23,7 +23,7 @@
     .bar {
       font-size: 2rem;
       // border: 2px solid red;
-      color: var(--champagne-gold);
+      color: var(--vanilla-ice);
       margin-right: 20px;
     }
   }
@@ -32,7 +32,7 @@
     ul {
       font-weight: bold;
       font-size: 1.3rem;
-      color: var(--champagne-gold);
+      color: var(--paprika);
       list-style-type: none;
       border: 2px solid red;
       padding: 0;
@@ -68,7 +68,7 @@
         ul {
           font-weight: bold;
           font-size: 1.3rem;
-          color: var(--champagne-gold);
+          color: var(--paprika);
           li {
             margin: 0 20px;
             display: inline;

@@ -16,7 +16,7 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
     return (
       
         <div className="countdown-container">
-         <h1>{days} days : {hours} hours : {minutes} minutes : {seconds} : seconds</h1>
+         <h1>{days} days : {hours} hours : {minutes} minutes : {seconds} seconds</h1>
 
         </div>
       

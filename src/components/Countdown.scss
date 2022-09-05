@@ -1,9 +1,11 @@
 .countdown-container {
-    background-image: linear-gradient(to bottom right, #A27900, #CEA335);
+    // background-image: linear-gradient(to bottom right, var(--dusty-rose), var(--burgundy));
+    background-color: var(--paprika) ;
     h1 {
         text-align: center;
         padding: 50px 0;
         font-size: 2rem;
+        color: white;
     }
 }
 

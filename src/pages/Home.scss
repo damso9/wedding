@@ -17,7 +17,9 @@
     background-size: cover; /* Resize the background image to cover the entire container */
     h1 {
         margin-top: 10%;
-        color: var(--burgundy-red-light);
+        // color: var(--tumbleweed);
+        color: white;
+
         font-size: 4rem;
         font-family: 'Dancing Script', cursive;
         font-weight: 700;
@@ -33,9 +35,9 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
         // border: 2px solid red;
         text-transform: uppercase;
         font-size: 1.3rem;
-        color: var(--burgundy-red-light);
+        color: var(--tumbleweed);
         font-weight: bold;
-        text-shadow: blue;
+        
         margin: 30px;
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
@@ -43,7 +45,9 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
     }
     h3 {
         font-size: 3rem;
-        color: var(--burgundy-red-light);
+        // color: var(--tumbleweed);
+        color: white;
+
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);

@@ -15,14 +15,18 @@ export const Home = () => {
     <div>
       <Navbar />
       <main className="hero">
+        <div className="hero-container">
         <h1>Ikechukwu & Chisomeje</h1>
-        <p>Are Getting Married</p>
+        <br />
+        <br />
         <h3>24 Sept, 2022 | 11:00am</h3>
+        </div>
         {/* <button id="rsvp-btn">RSVP</button> */}
       </main>
+      <Toast />
       <WeddingCountdown />
       <Info />
-    <Toast />
+
     <Gallery />
 
 
