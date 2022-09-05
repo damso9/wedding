@@ -56,11 +56,21 @@
 
 .toast .story-container .story .story-content {
   background: var(--vanilla-ice);
-  border: 2px solid var(--paprika);
   border-radius: 7px;
+  position: relative;
   color: var(--paprika);
   width: 100%;
   margin-bottom: 20px;
+}
+
+.toast .story-container .story .story-content .pin-image {
+  width: 50px;
+  position: absolute;
+}
+
+.toast .story-container .story .story-content .right {
+  right: 10px;
+  bottom: 14px;
 }
 
 .toast .story-container .story .story-content .content-container {

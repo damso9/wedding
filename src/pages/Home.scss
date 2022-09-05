@@ -2,6 +2,7 @@
 .Navbar {
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 .hero {
     border: 0.1px solid transparent;
@@ -11,10 +12,11 @@
     // height: 50vh;
     padding-bottom: 20px;
     text-align: center;
-    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/hero-image-2.jpg');
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/wedding-photos/5.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: 15% 20%;
     h1 {
         margin-top: 10%;
         // color: var(--tumbleweed);
@@ -67,7 +69,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 
 @media only screen and (min-width: 768px) {
     .hero {
-    height: 80vh;
+    height: 70vh;
     h1 {
         font-size: 5rem;
     }

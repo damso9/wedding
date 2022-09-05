@@ -55,8 +55,8 @@
 }
 
 .some-active-class {
-  background-color: var(--champagne-gold);
-  color: var(--burgundy-red);
+  background-color: var(--vanilla-ice);
+  color: var(--paprika);
   display: block;
 }
 
@@ -92,7 +92,7 @@
     background-color: transparent;
     color: var(--champagne-gold);
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--champagne-gold);
+    border-bottom: 2px solid var(--paprika);
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

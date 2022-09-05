@@ -2,6 +2,7 @@ import React from "react";
 
 import img8 from "../assets/wedding-photos/8.jpg";
 import img9 from "../assets/wedding-photos/9.jpg";
+import pin from "../assets/pin.png";
 
 import "./Toast.css";
 export const Toast = () => {
@@ -15,6 +16,7 @@ export const Toast = () => {
             </div>
           </div>
           <div className="story-content">
+            <img src={pin} alt="pin image" className="pin-image"/>
             <figure className="content-container right">
               <h2 className="for-those">Ikechukwu Udochukwu Adindu</h2>
               {/* <h3>Groom</h3> */}
@@ -47,8 +49,10 @@ export const Toast = () => {
                 through it all. It's you and I together, babyy.
               </p>
 
-              <p className="last-toast">I love you, Ifunanyami 💗</p>
+              <p className="last-toast">I love you, Ifunanyam 💗</p>
             </figure>
+            <img src={pin} alt="pin image" className="pin-image right"/>
+
           </div>
         </section>
         <section className="story reverse">
@@ -58,6 +62,8 @@ export const Toast = () => {
             </div>
           </div>
           <div className="story-content">
+          <img src={pin} alt="pin image" className="pin-image"/>
+
             <figure className="content-container">
               <h2 className="for-those">Chisomeje Roseline Nwatu</h2>
               {/* <h3>Bride</h3> */}
@@ -88,6 +94,8 @@ export const Toast = () => {
               </p>
               <p className="last-toast">See you at the altar, My Love 💗</p>
             </figure>
+            <img src={pin} alt="pin image" className="pin-image right"/>
+
           </div>
         </section>
       </aside>

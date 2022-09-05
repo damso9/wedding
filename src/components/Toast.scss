@@ -44,8 +44,18 @@
     }
     .story-content {
     background: var(--vanilla-ice);
-    border: 2px solid var(--paprika);
+    
+    // border: 2px solid var(--paprika);
     border-radius: 7px;
+    position: relative;
+    .pin-image {
+      width: 50px;
+      position: absolute;
+    }
+    .right {
+      right: 10px;
+      bottom:14px;
+    }
     
       color: var(--paprika);
       width: 100%;
