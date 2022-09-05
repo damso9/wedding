@@ -5,7 +5,7 @@
 .footer h2 {
   text-align: center;
   font-size: 2.8rem;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: 700;
   color: var(--paprika);
 }
@@ -16,6 +16,7 @@
   }
   .footer h2 {
     color: var(--paprika);
+    font-size: 4rem;
   }
 }
 /*# sourceMappingURL=Footer.css.map */
