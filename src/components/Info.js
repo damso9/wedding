@@ -14,7 +14,7 @@ export const Info = () => {
               <GiPartyPopper className="event-icon" />
               <h3>Our Wedding day</h3>
               <p>24th Sept 2022</p>
-              <p>Too Forever! 💒</p>
+              <p>Together Forever! 💒</p>
             </div>
           </figure>
           <figure>
