@@ -26,6 +26,7 @@ export const Info = () => {
                 ASSEMBLIES OF GOD CHURCH, Pinnock Estate, By Jakande Roundabout,
                 Off Lekki-Epe Expressway, Lagos.
               </p>
+              <a target="_blank" href="https://www.google.com/maps/dir//6.453607,3.509043/@6.453607,3.509043,13z">Click here to go to Church</a>
             </div>
           </figure>
           <figure>
