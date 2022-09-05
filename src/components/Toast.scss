@@ -51,10 +51,13 @@
     .pin-image {
       width: 50px;
       position: absolute;
+      filter: invert(8%) sepia(78%) saturate(5677%) hue-rotate(334deg) brightness(90%) contrast(109%);
     }
     .right {
       right: 10px;
       bottom:14px;
+      filter: invert(8%) sepia(78%) saturate(5677%) hue-rotate(334deg) brightness(90%) contrast(109%);
+      transform: rotate(180deg);
     }
     
       color: var(--paprika);

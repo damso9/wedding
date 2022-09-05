@@ -17,7 +17,7 @@ export const Toast = () => {
           </div>
           <div className="story-content">
             <img src={pin} alt="pin image" className="pin-image"/>
-            <figure className="content-container right">
+            <figure className="content-container">
               <h2 className="for-those">Ikechukwu Udochukwu Adindu</h2>
               {/* <h3>Groom</h3> */}
               <p className="we-met"> My Darling</p>

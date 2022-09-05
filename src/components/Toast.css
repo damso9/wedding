@@ -66,11 +66,17 @@
 .toast .story-container .story .story-content .pin-image {
   width: 50px;
   position: absolute;
+  -webkit-filter: invert(8%) sepia(78%) saturate(5677%) hue-rotate(334deg) brightness(90%) contrast(109%);
+          filter: invert(8%) sepia(78%) saturate(5677%) hue-rotate(334deg) brightness(90%) contrast(109%);
 }
 
 .toast .story-container .story .story-content .right {
   right: 10px;
   bottom: 14px;
+  -webkit-filter: invert(8%) sepia(78%) saturate(5677%) hue-rotate(334deg) brightness(90%) contrast(109%);
+          filter: invert(8%) sepia(78%) saturate(5677%) hue-rotate(334deg) brightness(90%) contrast(109%);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .toast .story-container .story .story-content .content-container {
